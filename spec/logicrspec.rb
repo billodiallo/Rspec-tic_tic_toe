@@ -1,7 +1,8 @@
 require_relative '../lib/logic'
 
 describe Logic do
-  logic = Logic.new('X', 'O')
+  let(:logic) { Logic.new('X', 'O') }
+
   draw_board_test = [['X', 1, 'X'], %w[X O O], [2, 'X', 'O']]
   none_finish_board_test = [%w[X O X], ['O', 5, 'X'], ['O', 'X', 9]]
   winning_board_test = [%w[O X O], %w[X O X], %w[O X X]]
