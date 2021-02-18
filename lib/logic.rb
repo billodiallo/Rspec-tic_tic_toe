@@ -18,7 +18,7 @@ class Logic
     x2 = board[1]
     x3 = board[2]
     board.each do |x|
-      return true if x.all?(/X/) or x.all?(/Y/)
+      return true if x.all?(/X/) or x.all?(/O/)
     end
     return true if x1[0] == x2[0] && x2[0] == x3[0]
     return true if x1[1] == x2[1] && x2[1] == x3[1]
