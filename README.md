@@ -58,13 +58,15 @@ We have already created rspec-testing files called logic.rb, and settings.rb.
 
 ## Authors
 
-
-
 👤 Billo Dallio
 
 - GitHub: [@billodiallo](https://github.com/billodiallo)
 - Twitter: [@BilloDi83547008](https://twitter.com/BilloDi83547008)
 
+👤 Sergio Cortes Satizabal
+
+- Github: [@sergiocortessat](https://github.com/sergiocortessat)
+Twitter: [@sergiocortessat](https://twitter.com/sergiocortessat)
 
 
 
