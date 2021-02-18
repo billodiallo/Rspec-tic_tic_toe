@@ -68,8 +68,6 @@ We have already created rspec-testing files called logic.rb, and settings.rb.
 - Github: [@sergiocortessat](https://github.com/sergiocortessat)
 Twitter: [@sergiocortessat](https://twitter.com/sergiocortessat)
 
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
