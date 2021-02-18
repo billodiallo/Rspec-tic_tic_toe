@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Week 2 TicTacToe
+# Week 2 TicTacToe Rspec
 
 In order to win the game, a player must place three of their marks in a horizontal, vertical, or diagonal row.
 Players will soon discover that the best play from both parties leads to a draw.
@@ -54,7 +54,8 @@ In this project the testing was done using RSpec to test all game logic methods.
 We have already created rspec-testing files called logic.rb, and settings.rb.
 - go to the folder inside your terminal type rspec
 - If all test pass you will see:
- `18 examples, 0 failures`
+ `16 examples, 0 failures` for logic.rb
+ `4 examples, 0 failures` for settings.rb
 
 ## Authors
 
