@@ -58,10 +58,7 @@ We have already created rspec-testing files called logic.rb, and settings.rb.
 
 ## Authors
 
-👤 Gregorio Rábago Sainz
 
-- GitHub: [@Greg0109](https://github.com/greg0109)
-- Twitter: [@Greg_0109](https://twitter.com/greg_0109)
 
 👤 Billo Dallio
 
@@ -69,10 +66,7 @@ We have already created rspec-testing files called logic.rb, and settings.rb.
 - Twitter: [@BilloDi83547008](https://twitter.com/BilloDi83547008)
 
 
-👤 Ayman Jabr (RSpec Testing part)
 
-- GitHub: [@AymanJabr](https://github.com/AymanJabr)
-- LinkedIn: [@Ayman Jabr](https://www.linkedin.com/in/ayman-jabr-3705a4100/)
 
 ## 🤝 Contributing
 
