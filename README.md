@@ -19,6 +19,9 @@ There are 8 winning combinations: Top row, Middle row, Bottom row, Left column, 
 There’s a draw/tie when the entire board is filled with X’s and O’s but no winning combinations can be found.
 
 ## Screenshot
+- testing
+
+![rspectest-tictoc-toe](https://user-images.githubusercontent.com/11162987/108459668-2cf05a00-7288-11eb-9c1f-61079e7ce200.PNG)
 
 ![Screenshot](TicTacToe.gif)
 
