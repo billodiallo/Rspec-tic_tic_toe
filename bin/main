@@ -52,7 +52,7 @@ def display_board(board)
   end
 end
 
-while true
+loop do
   if player_one_turn
     puts 'Player one, please make a move'
   else
