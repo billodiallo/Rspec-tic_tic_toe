@@ -75,12 +75,12 @@ describe Logic do
     end
   end
 
-  # describe 'player_won' do
-  #   it 'Method should return to check_move statement if thr is no nil' do
-  #     expect(logic.player_won(correctmove_board_test, 7, true)).not_to eql([false, player_board_test])
-  #   end
-  #   it 'Method should return a true statement if there is nil move' do
-  #     expect(logic.player_won(correctmove_board_test, nil, true)).not_to be false
-  #   end
-  # end
+  describe 'player_won' do
+    it 'Method should return to check_move statement if thr is no nil' do
+      expect(logic.player_won(correctmove_board_test, 7, true)).not_to eql([false, player_board_test])
+    end
+    it 'Method should return a true statement if there is nil move' do
+      expect(logic.player_won(correctmove_board_test, nil, true)).not_to be false
+    end
+  end
 end
