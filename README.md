@@ -23,7 +23,7 @@ There’s a draw/tie when the entire board is filled with X’s and O’s but no
 ![Screenshot](TicTacToe.gif)
 
 ## Built With
- [RUBY](https://github.com/Greg0109/TicTacToe/tree/User-interface)
+ [RUBY](https://github.com/billodiallo/Rspec-tic_tic_toe)
 
 ## Getting Started
 
@@ -31,9 +31,9 @@ This is an example of how you may give instructions on setting up your project l
 
 - To get a local copy up and running follow these simple example steps.
 
-- Clone this repository with git clone ```https://github.com/Greg0109/TicTacToe.git``` using your terminal or command line.
+- Clone this repository with git clone ```https://github.com/billodiallo/Rspec-tic_tic_toe.git``` using your terminal or command line.
 - Change to the project directory by entering :
-```cd TicTacToe``` in the terminal .
+```cd Rspec-tic_tic_toe``` in the terminal .
 - run the command ```bin/main```
 
 ## Prequisites
