@@ -2,9 +2,9 @@ require_relative '../lib/settings'
 
 describe Settings do
   let(:new_setting) { Settings.new }
+  let(:test_array_wrong) { [[0, 0, 0], [0, 0, 0], [0, 0, 0]] }
+  let(:test_array_correct) { [[1, 2, 3], [4, 5, 6], [7, 8, 9]] }
 
-  test_array_wrong = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-  test_array_correct = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
   describe '#get_players' do
     it 'Must return the symbol for the second player' do
       expect(new_setting.get_players('O')).to eql('X')

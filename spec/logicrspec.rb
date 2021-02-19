@@ -2,12 +2,11 @@ require_relative '../lib/logic'
 
 describe Logic do
   let(:logic) { Logic.new('X', 'O') }
-
-  draw_board_test = [['X', 1, 'X'], %w[X O O], [2, 'X', 'O']]
-  none_finish_board_test = [%w[X O X], ['O', 5, 'X'], ['O', 'X', 9]]
-  winning_board_test = [%w[O X O], %w[X O X], %w[O X X]]
-  player_board_test = [%w[X O X], %w[O X X], %w[O X X]]
-  correctmove_board_test = [%w[X O X], %w[O X X], [7, 'X', 'X']]
+  let(:draw_board_test) { [['X', 1, 'X'], %w[X O O], [2, 'X', 'O']] }
+  let(:none_finish_board_test) { [%w[X O X], ['O', 5, 'X'], ['O', 'X', 9]] }
+  let(:winning_board_test) { [%w[O X O], %w[X O X], %w[O X X]] }
+  let(:player_board_test) { [%w[X O X], %w[O X X], %w[O X X]] }
+  let(:correctmove_board_test) { [%w[X O X], %w[O X X], [7, 'X', 'X']] }
 
   describe '#check_draw' do
     it 'Method should return false as not all items are strings' do
