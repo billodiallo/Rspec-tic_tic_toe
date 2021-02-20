@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+
 require_relative '../lib/logic'
 require_relative '../lib/settings'
 
@@ -29,7 +30,6 @@ puts
 game = Logic.new(player_one, player_two)
 board = settings.make_board
 player_one_turn = true
-player_move = nil
 game_status = false
 
 def invalid_entry(board, movement, game)
@@ -52,7 +52,7 @@ def display_board(board)
   end
 end
 
-while true
+loop do
   if player_one_turn
     puts 'Player one, please make a move'
   else

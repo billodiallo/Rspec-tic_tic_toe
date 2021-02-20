@@ -1,9 +1,9 @@
 class Settings
   def get_players(player_one)
-    if player_one == 'X'
-      'O'
-    else
+    if player_one == 'O'
       'X'
+    else
+      'O'
     end
   end
 

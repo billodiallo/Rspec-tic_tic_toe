@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Week 2 TicTacToe
+# Week 2 TicTacToe Rspec
 
 In order to win the game, a player must place three of their marks in a horizontal, vertical, or diagonal row.
 Players will soon discover that the best play from both parties leads to a draw.
@@ -19,11 +19,14 @@ There are 8 winning combinations: Top row, Middle row, Bottom row, Left column, 
 There’s a draw/tie when the entire board is filled with X’s and O’s but no winning combinations can be found.
 
 ## Screenshot
+- testing
+
+![rspectest-tictoc-toe](https://user-images.githubusercontent.com/11162987/108459668-2cf05a00-7288-11eb-9c1f-61079e7ce200.PNG)
 
 ![Screenshot](TicTacToe.gif)
 
 ## Built With
- [RUBY](https://github.com/Greg0109/TicTacToe/tree/User-interface)
+ [RUBY](https://github.com/billodiallo/Rspec-tic_tic_toe)
 
 ## Getting Started
 
@@ -31,9 +34,9 @@ This is an example of how you may give instructions on setting up your project l
 
 - To get a local copy up and running follow these simple example steps.
 
-- Clone this repository with git clone ```https://github.com/Greg0109/TicTacToe.git``` using your terminal or command line.
+- Clone this repository with git clone ```https://github.com/billodiallo/Rspec-tic_tic_toe.git``` using your terminal or command line.
 - Change to the project directory by entering :
-```cd TicTacToe``` in the terminal .
+```cd Rspec-tic_tic_toe``` in the terminal .
 - run the command ```bin/main```
 
 ## Prequisites
@@ -54,17 +57,20 @@ In this project the testing was done using RSpec to test all game logic methods.
 We have already created rspec-testing files called logic.rb, and settings.rb.
 - go to the folder inside your terminal type rspec
 - If all test pass you will see:
- `18 examples, 0 failures`
+ `16 examples, 0 failures` for logic.rb
+ `4 examples, 0 failures` for settings.rb
 
 ## Authors
-
-
 
 👤 Billo Dallio
 
 - GitHub: [@billodiallo](https://github.com/billodiallo)
 - Twitter: [@BilloDi83547008](https://twitter.com/BilloDi83547008)
 
+👤 Sergio Cortes Satizabal
+
+- Github: [@sergiocortessat](https://github.com/sergiocortessat)
+- Twitter: [@sergiocortessat](https://twitter.com/sergiocortessat)
 
 ## 🤝 Contributing
 
